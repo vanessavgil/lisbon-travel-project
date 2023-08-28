@@ -11,7 +11,6 @@ header {
     color: white;
     text-align: center;
     padding: 200px 0;
-
 }
 
 .container {
@@ -34,6 +33,15 @@ header {
 
 .card {
     background-color: white;
+    margin: 30px 0;
+}
+
+.card-body{
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 0 30px 30px;
 }
 
 
@@ -104,10 +112,8 @@ header a {
 
 
 main {
-    background-color: white;
-   
+    background-color: white;   
 }
-
 
 .img-responsive {
     max-width: 100%;
@@ -131,14 +137,23 @@ main h3 {
     margin: 0;
 }
 
-main h4, h5 {
-   
+main h4 {
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1;
     color: #272044;
-
+    margin: 0;
 }
+
+main h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    color: #272044;
+    margin: 0;
+}
+
+
 main p {
     font-style: normal;
     font-weight: 400;
