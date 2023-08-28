@@ -37,7 +37,7 @@ header {
 }
 
 .card-header.grid {
-padding: 0;
+grid-gap: 0;
 }
 
 .card-body{
@@ -50,7 +50,7 @@ padding: 0;
 
 .embed {
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 /1;
 }
 
 .btn {
@@ -232,10 +232,17 @@ footer a {
     .grid {
         grid-template-columns: 1fr;
         grid-gap: 32px;
-
     }
 
     section {
         padding: 30px;
+    }
+
+    .card-header img {
+        display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 /9;
     }
 }
