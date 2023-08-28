@@ -71,9 +71,10 @@ header a {
     border-radius: 6px;
 }
 
-.azulejo{
-    width: 100px;
-    height: 100px;
+img {
+    width: 300px;
+    height: 300px;
+    
 }
 
 main {
@@ -88,6 +89,7 @@ main h2 {
     color: #272044;
     opacity: 0.3;
     text-transform: uppercase;
+    margin: 0;
 }
 
 main h3 {
@@ -95,6 +97,7 @@ main h3 {
     font-size: 40px;
     line-height: 1.5;
     color: #272044;
+    margin: 0;
 }
 
 main p {
