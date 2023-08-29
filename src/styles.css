@@ -179,6 +179,12 @@ main p {
 grid-template-columns: 1fr 2fr 2fr;
 
 }
+
+.copyright.text-center {
+    
+    display: block;
+    margin: 8px;
+}
 footer {
     color: white;
     background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url("../images/lisbon-footr.png");
